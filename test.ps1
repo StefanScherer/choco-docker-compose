@@ -20,7 +20,8 @@ $zip.Dispose()
 . choco install -y docker-compose -source .
 
 "TEST: Version of binary should match"
-if (-Not $(docker-compose --version).Contains("version $version ")) {
+. docker-compose --version
+if (-Not $(docker-compose --version).CompareTo("docker-compose version: $version")) {
   Write-Error "FAIL: Wrong version of docker-compose installed!"
 }
 
