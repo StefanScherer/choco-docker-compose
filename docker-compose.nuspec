@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>docker-compose</id>
+    <version>1.5.0</version>
+    <title>docker-compose</title>
+    <authors>Docker Contributors</authors>
+    <owners>Stefan Scherer</owners>
+    <summary>Define and run multi-container applications with Docker.</summary>
+    <description>Compose is a tool for defining and running multi-container applications with Docker. With Compose, you define a multi-container application in a single file, then spin your application up in a single command which does everything that needs to be done to get it running.</description>
+    <projectUrl>https://github.com/docker/compose</projectUrl>
+    <docsUrl>https://docs.docker.com/compose/</docsUrl>
+    <bugTrackerUrl>https://github.com/docker/compose/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/StefanScherer/choco-docker-compose</packageSourceUrl>
+    <tags>Docker Compose docker-compose</tags>
+    <licenseUrl>https://github.com/docker/compose/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/docker/compose/master/logo.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
