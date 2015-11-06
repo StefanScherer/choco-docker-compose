@@ -7,6 +7,8 @@ build_script:
   - ps: cpack
 
 test_script:
+  - ps: Write-Host $env:APPVEYOR_REPO_BRANCH
+  - ps: Write-Host $env:TOKEN
   - ps: .\test.ps1
 
 deploy_script:
