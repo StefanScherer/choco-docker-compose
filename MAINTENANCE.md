@@ -34,7 +34,7 @@ variables below.
 
 Example:
 
-$url            = 'https://github.com/docker/compose/releases/download/1.5.0rc1/docker-compose-Windows-x86_64.exe'
+$url            = 'https://github.com/docker/compose/releases/download/1.5.1/docker-compose-Windows-x86_64.exe'
 
 #### 4. Update appveyor.yml
 
@@ -50,7 +50,7 @@ Push your changes to GitHub and check the AppVeyor build. See the AppVeyor build
 
 After a successfull AppVeyor build tag the sources and push the new tag to GitHub. This step builds and tests the package and pushes the new package to Chocolatey.
 
-    git tag 1.5.0
+    git tag 1.5.1
     git push --tags
 
 ## AppVeyor build
@@ -112,7 +112,7 @@ Copy the example command with your key
 
 Push the package
 
-    choco push docker-compose.1.5.0.nupkg
+    choco push docker-compose.1.5.1.nupkg
 
 While in moderation you can push the package again to fix errors in the description or installation script etc.
 
