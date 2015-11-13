@@ -1,9 +1,9 @@
 $packageName = 'docker-compose'
 $url = 'https://github.com/docker/compose/releases/download/1.5.1/docker-compose-Windows-x86_64.exe'
 $url64 = $url
-$checksum = '28f7db425f7c9ebf59de941cd5e5801a5fd334f1'
+$checksum = '260e02bd09f3f039c9e2947273d895ee'
 $checksum64 = $checksum
-$checksumType = 'sha1'
+$checksumType = 'md5'
 $checksumType64 = $checksumType
 
 $destination = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
