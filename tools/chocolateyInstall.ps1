@@ -6,4 +6,9 @@ $checksum64 = $checksum
 $checksumType = 'md5'
 $checksumType64 = $checksumType
 
-ker
+$destination = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$file = "$($destination)\docker-compose.exe"
+
+if (![System.IO.Directory]::Exists($destination)) {[System.IO.Directory]::CreateDirectory($destination)}
+
+Get-ChocolateyWebFile $packageName $file $url $url64 $checksum $checksum64 $checksumType $checksumType64
