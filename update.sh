@@ -16,7 +16,7 @@ version=$1
 
 url="https://github.com/docker/compose/releases/download/${version}/docker-compose-Windows-x86_64.exe"
 
-checksum=$(curl "${url}" | md5) #  | cut -f 1 -d " ")
+checksum=$(curl -L "${url}" | md5) #  | cut -f 1 -d " ")
 
 sed -i.bak "s/<version>.*<\/version>/<version>${version}<\/version>/" docker-compose.nuspec
 
