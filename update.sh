@@ -3,7 +3,7 @@
 if [ "$1" = "" ]; then
   echo "Usage: $0 version"
   echo "Update the choco package to a given version"
-  echo "Example: $0 1.10.3"
+  echo "Example: $0 1.9.0-rc1"
   exit 1
 fi
 

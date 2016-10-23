@@ -17,7 +17,7 @@ if ($zip.Entries.Count -ne 5) {
 $zip.Dispose()
 
 "TEST: Installation of package should work"
-. choco install -y docker-compose -source .
+. choco install -y docker-compose -source . -pre
 
 "TEST: Version of binary should match"
 . docker-compose --version
