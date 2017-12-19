@@ -1,7 +1,7 @@
 $packageName = 'docker-compose'
-$url = 'https://github.com/docker/compose/releases/download/1.17.1/docker-compose-Windows-x86_64.exe'
+$url = 'https://github.com/docker/compose/releases/download/1.18.0/docker-compose-Windows-x86_64.exe'
 $url64 = $url
-$checksum = '86a9e5193628e93ab73fd0b7438e954f25ae68da45ab3b6ab10dda3f307bb21c'
+$checksum = '9c110e69aac18364f1fb10c99d26318096ebc4cf4bf5fe7931a38cac61b2eb45'
 $checksum64 = $checksum
 $checksumType = 'sha256'
 $checksumType64 = $checksumType
