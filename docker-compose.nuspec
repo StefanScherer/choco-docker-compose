@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>docker-compose</id>
-    <version>1.21.1</version>
+    <version>1.21.2</version>
     <title>docker-compose</title>
     <authors>Docker Contributors</authors>
     <owners>Stefan Scherer</owners>
