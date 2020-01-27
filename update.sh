@@ -1,9 +1,10 @@
 #!/bin/bash
+set -e
 
 if [ "$1" = "" ]; then
   echo "Usage: $0 version"
   echo "Update the choco package to a given version"
-  echo "Example: $0 1.10.3"
+  echo "Example: $0 1.25.3"
   exit 1
 fi
 
@@ -14,9 +15,9 @@ fi
 
 version=$1
 
-url="https://github.com/docker/compose/releases/download/v${version}/docker-compose-Windows-x86_64.exe"
+url="https://github.com/docker/compose/releases/download/${version}/docker-compose-Windows-x86_64.exe"
 
-checksum=$(curl -L "${url}" | shasum -a 256 - | cut -f 1 -d " ")
+checksum=$(curl -Lf "${url}" | shasum -a 256 - | cut -f 1 -d " ")
 
 sed -i.bak "s/<version>.*<\/version>/<version>${version}<\/version>/" docker-compose.nuspec
 
