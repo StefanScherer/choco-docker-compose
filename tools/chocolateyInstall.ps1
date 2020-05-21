@@ -1,6 +1,6 @@
 $packageName = 'docker-compose'
-$url = 'https://github.com/docker/compose/releases/download/1.25.4/docker-compose-Windows-x86_64.exe'
-$checksum = '941705af6c3676ef17f1fa6726019c09efa0ad785174afda439eed8b794c36db'
+$url = 'https://github.com/docker/compose/releases/download/1.25.5/docker-compose-Windows-x86_64.exe'
+$checksum = '0889c411f88e631c7dff0f0bc18fae3040ed8b6a951f316637e91c5293a5085c'
 $checksumType = 'sha256'
 
 $destination = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
