@@ -2,7 +2,7 @@
 
 [![Latest version released](https://img.shields.io/chocolatey/v/docker-compose.svg)](https://chocolatey.org/packages/docker-compose)
 [![Package downloads count](https://img.shields.io/chocolatey/dt/docker-compose.svg)](https://chocolatey.org/packages/docker-compose)
-[![Build status](https://ci.appveyor.com/api/projects/status/kar8vn7rcytkttnb/branch/master?svg=true)](https://ci.appveyor.com/project/StefanScherer/choco-docker-compose/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/kar8vn7rcytkttnb/branch/main?svg=true)](https://ci.appveyor.com/project/StefanScherer/choco-docker-compose/branch/main)
 
 This is a chocolatey package for docker-compose. Please see MAINTENANCE.md
 for information on how to upkeep it.
