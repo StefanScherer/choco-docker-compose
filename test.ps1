@@ -21,7 +21,7 @@ $zip.Dispose()
 
 "TEST: Version of binary should match"
 . docker-compose --version
-if (-Not $(docker-compose --version).Contains("version $version")) {
+if (-Not $(docker-compose --version).Contains("version v$version")) {
   Write-Error "FAIL: Wrong version of docker-compose installed!"
 }
 
