@@ -15,7 +15,7 @@ fi
 
 version=$1
 
-url="https://github.com/docker/compose/releases/download/${version}/docker-compose-Windows-x86_64.exe"
+url="https://github.com/docker/compose/releases/download/v${version}/docker-compose-windows-x86_64.exe"
 
 checksum=$(curl -Lf "${url}" | shasum -a 256 - | cut -f 1 -d " ")
 
