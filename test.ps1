@@ -5,7 +5,7 @@ $version = $env:APPVEYOR_BUILD_VERSION -replace('\.[^.\\/]+$')
 "TEST: Version $version in docker-compose.nuspec file should match"
 [xml]$spec = Get-Content docker-compose.nuspec
 if ($spec.package.metadata.version.CompareTo($version)) {
-  Write-Error "FAIL: rong version in nuspec file!"
+  Write-Error "FAIL: Wrong version in nuspec file!"
 }
 
 "TEST: Package should contain only install script"
@@ -21,7 +21,7 @@ $zip.Dispose()
 
 "TEST: Version of binary should match"
 . docker-compose --version
-if (-Not $(docker-compose --version).Contains("version $version")) {
+if (-Not $(docker-compose --version).Contains("version v$version")) {
   Write-Error "FAIL: Wrong version of docker-compose installed!"
 }
 

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>docker-compose</id>
-    <version>1.29.2</version>
+    <version>2.15.1</version>
     <title>docker-compose</title>
     <authors>Docker Contributors</authors>
     <owners>Stefan Scherer</owners>
@@ -13,9 +13,9 @@
     <bugTrackerUrl>https://github.com/docker/compose/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/StefanScherer/choco-docker-compose</packageSourceUrl>
     <tags>Docker Compose docker-compose</tags>
-    <licenseUrl>https://github.com/docker/compose/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/docker/compose/blob/v2/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/docker/compose/master/logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/docker/compose/v2/logo.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
