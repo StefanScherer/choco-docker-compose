@@ -13,9 +13,9 @@
     <bugTrackerUrl>https://github.com/docker/compose/issues</bugTrackerUrl>
     <packageSourceUrl>https://github.com/StefanScherer/choco-docker-compose</packageSourceUrl>
     <tags>Docker Compose docker-compose</tags>
-    <licenseUrl>https://github.com/docker/compose/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/docker/compose/blob/v2/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/docker/compose/master/logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/docker/compose/v2/logo.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

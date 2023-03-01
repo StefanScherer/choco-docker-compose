@@ -13,5 +13,3 @@ flag also if it hasn't gone through moderation).
 # Links
 
 * https://github.com/docker/compose - docker-compose
-* https://github.com/silarsis/choco-docker-machine - docker-machine choco package, inspiration for this package
-* https://github.com/ahmetalpbalkan/docker-chocolatey - docker client choco package, inspiration for this package
