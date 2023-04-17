@@ -34,7 +34,7 @@ variables below.
 
 Example:
 
-$url            = 'https://github.com/docker/compose/releases/download/v2.15.1/docker-compose-Windows-x86_64.exe'
+$url            = 'https://github.com/docker/compose/releases/download/v2.17.2/docker-compose-Windows-x86_64.exe'
 
 #### 4. Update appveyor.yml
 
@@ -50,7 +50,7 @@ Push your changes to GitHub and check the AppVeyor build. See the AppVeyor build
 
 After a successfull AppVeyor build tag the sources and push the new tag to GitHub. This step builds and tests the package and pushes the new package to Chocolatey.
 
-    git tag 2.15.1
+    git tag 2.17.2
     git push --tags
 
 ## AppVeyor build
